@@ -1,0 +1,12 @@
+.Board {
+  background-color: #6c444445;
+}
+
+.Cards {
+  display: grid;
+  grid-gap: 0.25rem;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(max(150px, 17%), 1fr));
+  list-style: none;
+  padding: 2rem;
+}

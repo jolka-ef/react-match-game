@@ -1,0 +1,35 @@
+.Back {
+  min-width: 100%;
+}
+.Button {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  padding: 0;
+  perspective: 120vw;
+  width: 100%;
+}
+.Button--chosen {
+  transition: all ease-out 1500ms;
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
+}
+
+.Container {
+  display: flex;
+  margin: 0;
+  width: 100%;
+}
+.Container--chosen {
+  transition: all ease-out 1500ms;
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
+}
+.Container--inactive {
+  visibility: hidden;
+}
+.Front {
+  backface-visibility: hidden;
+  min-width: 100%;
+  transform: rotateY(-180deg) translate(100%, 0);
+}
