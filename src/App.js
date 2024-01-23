@@ -1,9 +1,13 @@
-import "./App.css";
-import { Card } from "./js/components/Card";
 import { GameBoard } from "./js/components/GameBoard";
+import styles from "./css/App.module.css";
 
 function App() {
-  return <GameBoard />;
+  return (
+    <>
+      <h1 className={styles.Title}>Match Game</h1>
+      <GameBoard />
+    </>
+  );
 }
 
 export default App;

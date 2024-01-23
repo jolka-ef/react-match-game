@@ -1,12 +1,22 @@
-.Board {
-  background-color: #6c444445;
-}
-
 .Cards {
+  background-color: #6c444445;
   display: grid;
-  grid-gap: 0.25rem;
-  grid-gap: 0.5rem;
+  grid-gap: 0.5rem 0.75rem;
   grid-template-columns: repeat(auto-fit, minmax(max(150px, 17%), 1fr));
   list-style: none;
-  padding: 2rem;
+  padding: 2.5rem 3rem;
+  outline: 5px dashed #92737345;
+  outline-offset: -15px;
+}
+.Score {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2.5em;
+}
+.Score-heading {
+  font-size: 3em;
+  font-weight: normal;
+  margin: 0.5em;
+  text-transform: uppercase;
 }
