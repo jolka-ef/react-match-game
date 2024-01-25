@@ -1,3 +1,10 @@
+:root {
+  --colorShadeA: rgba(16, 51, 99, 1);
+  --colorShadeB: rgba(9, 61, 114, 1);
+  --colorShadeC: rgba(49, 121, 195, 0.9);
+  --colorShadeD: rgba(244, 244, 244, 1);
+}
+
 @font-face {
   font-family: "Smartie Caps";
   src: local("Smartie CAPS"), url("./fonts/SMARC.TTF") format("truetype");
@@ -11,7 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-width: 80em;
-  padding: 2em;
+  padding: 3em 2em;
 }
 
 code {
